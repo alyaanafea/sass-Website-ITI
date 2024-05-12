@@ -1,0 +1,22 @@
+.resorces {
+  background-color: $section-gray;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  .btn {
+    padding-top: 70px;
+    padding-left: 40%;
+  }
+}
+.resorces--cards {
+  display: flex;
+  justify-content: center;
+
+  padding-right: 4%;
+  gap: 1%;
+}
+.resorces--card {
+  &:hover {
+    background-color: $white-color;
+  }
+}

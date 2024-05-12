@@ -1,0 +1,14 @@
+.footer {
+  padding: 100px 200px;
+  background-color: $footer-bg;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.content--body {
+  i {
+    color: $secondry-color;
+    scale: 2;
+    margin: 10px;
+  }
+}

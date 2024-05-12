@@ -1,0 +1,23 @@
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "base/reset";
+@import "components/mycard";
+@import "components/cards.scss";
+// @import "components/card.scss";
+@import "components/buttons";
+@import "components/smallcard";
+@import "components/titles.scss";
+@import "components/resorceCard";
+@import "components/footercomp";
+@import "layout/navbar.scss";
+@import "layout/aboutUsA";
+@import "layout/smcards";
+@import "layout/department";
+@import "layout/doctors.scss";
+@import "layout/resorces";
+@import "layout/Insurance";
+@import "layout/footer";
+@import "pages/home.scss"; // @mixin eleHover($x,$y){
+//     background-color:$x;
+//     color:$y
+// }

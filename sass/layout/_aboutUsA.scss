@@ -1,0 +1,56 @@
+.about--a {
+  // position: relative;
+
+  img {
+    // position: absolute;
+    width: 100%;
+    height: 85vh;
+  }
+  &__content {
+    line-height: 3rem;
+    color: $white-color;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    h2 {
+      font-size: 3rem;
+    }
+    h4 {
+      font-size: 1.4rem;
+    }
+    h6 {
+      font-size: 1.2rem;
+      text-decoration: underline;
+    }
+  }
+}
+.about--b {
+  line-height: 1.5rem;
+  width: 100%;
+  display: flex;
+  padding: 14%;
+  gap: 20px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    .titles {
+      line-height: 2.5rem;
+      padding-bottom: 0 !important;
+      margin-bottom: 0 !important;
+      span {
+        font-size: larger;
+      }
+    }
+    p {
+      color: $dark-font;
+    }
+  }
+}
+.sm--cards {
+  position: absolute;
+  bottom: 70px;
+  left: 350px;
+}

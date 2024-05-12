@@ -1,0 +1,14 @@
+.sm--cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__4 {
+    background-color: $primary-color;
+  }
+  &__3 {
+    background-color: rgb(38, 93, 205);
+  }
+  &__1 {
+    background-color: rgb(32, 94, 218);
+  }
+}

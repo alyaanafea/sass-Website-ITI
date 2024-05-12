@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  //   align-items: center;
+  width: 170px;
+  &--head {
+    font-size: 1.6rem;
+    color: $white-color;
+  }
+  &--body {
+    font-size: 1rem;
+    color: $dark-font;
+  }
+}
